@@ -43,21 +43,21 @@ const Contact = () => {
       city: "Dubai",
       country: "UAE",
       address: "Business Bay, Dubai, UAE",
-      phone: "+971 4 XXX XXXX",
+      phone: "+251 4 XXX XXXX",
       type: "Headquarters"
     },
     {
       city: "Abu Dhabi", 
       country: "UAE",
-      address: "Capital Plaza, Abu Dhabi, UAE",
-      phone: "+971 2 XXX XXXX",
+      address: "Capital Plaza, Addis Ababa, Ethiopia",
+      phone: "+251 2 XXX XXXX",
       type: "Branch Office"
     },
     {
-      city: "Sharjah",
-      country: "UAE", 
-      address: "Industrial Area, Sharjah, UAE",
-      phone: "+971 6 XXX XXXX",
+      city: "Addis Ababa",
+      country: "Ethiopia", 
+      address: "Industrial Area, Addis Ababa, Ethiopia",
+      phone: "+251 6 XXX XXXX",
       type: "Logistics Hub"
     }
   ];
