@@ -274,7 +274,7 @@ const Services = () => {
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
                   Complete free zone setup and management services. From license
                   processing to ongoing operational support, we help you
-                  establish and maintain your business in UAE free zones.
+                  establish and maintain your business in Djibouti free zones.
                 </p>
 
                 <div className="space-y-4 mb-8">
@@ -315,11 +315,9 @@ const Services = () => {
                   </h3>
                   <div className="space-y-4">
                     {[
-                      "JAFZA - Jebel Ali Free Zone",
-                      "DMCC - Dubai Multi Commodities Centre",
-                      "DIFC - Dubai International Financial Centre",
-                      "Abu Dhabi Global Market (ADGM)",
-                      "Sharjah Airport International Free Zone",
+                      "JAFZA - Moyale Free Zone",
+                      "DMCC - Djibouti Multi Commodities Centre",
+                      
                     ].map((zone, idx) => (
                       <div
                         key={idx}
