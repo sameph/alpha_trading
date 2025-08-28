@@ -19,7 +19,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Our Location",
-      details: ["Dubai, UAE", "Prime Business District", "Visit by appointment"]
+      details: ["Ethiopia, Addis Ababa", "Prime Business District", "Visit by appointment"]
     },
     {
       icon: Phone,
@@ -40,25 +40,25 @@ const Contact = () => {
 
   const offices = [
     {
-      city: "Dubai",
-      country: "UAE",
-      address: "Business Bay, Dubai, UAE",
+      city: "Addis Ababa",
+      country: "Ethiopia",
+      address: "Bole Medianialem, Addis Ababa, Ethiopia",
       phone: "+251 4 XXX XXXX",
       type: "Headquarters"
     },
     {
-      city: "Abu Dhabi", 
-      country: "UAE",
-      address: "Capital Plaza, Addis Ababa, Ethiopia",
+      city: "Hawassa", 
+      country: "Ethiopia",
+      address: "piassa, Hawassa, Ethiopia",
       phone: "+251 2 XXX XXXX",
       type: "Branch Office"
     },
     {
-      city: "Addis Ababa",
+      city: "Adama",
       country: "Ethiopia", 
-      address: "Industrial Area, Addis Ababa, Ethiopia",
+      address: "Industrial Area, Adama, Ethiopia",
       phone: "+251 6 XXX XXXX",
-      type: "Logistics Hub"
+      type: "Branch"
     }
   ];
 
@@ -243,7 +243,7 @@ const Contact = () => {
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="text-center">
                       <MapPin className="w-16 h-16 text-luxury mx-auto mb-4" />
-                      <h3 className="text-2xl font-bold mb-2">Dubai Headquarters</h3>
+                      <h3 className="text-2xl font-bold mb-2">Addis Ababa Headquarters</h3>
                       <p className="text-muted-foreground">Interactive map coming soon</p>
                     </div>
                   </div>

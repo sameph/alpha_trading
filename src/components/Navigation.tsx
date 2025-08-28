@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Car, Menu, X } from "lucide-react";
 import { useState } from "react";
+import Logo from "@/assets/logo.png";
 
 const Navigation = () => {
   const location = useLocation();
@@ -23,13 +24,22 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-            <div className="w-10 h-10 bg-gradient-luxury rounded-lg flex items-center justify-center">
-              <Car className="w-6 h-6 text-luxury-foreground" />
-            </div>
+          <Link
+            to="/"
+            className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+          >
+            <img
+              src={Logo}
+              alt="Alpha G.T FZCO Logo"
+              className="w-10 h-10 rounded-lg object-contain"
+            />
             <div className="flex flex-col">
-              <span className="text-lg font-bold text-luxury">M.Y. ALPHA</span>
-              <span className="text-xs text-muted-foreground -mt-1">GENERAL TRADING</span>
+              <span className="text-lg font-bold text-luxury">
+                Alpha G.T FZCO
+              </span>
+              <span className="text-xs text-muted-foreground -mt-1">
+                GENERAL TRADING
+              </span>
             </div>
           </Link>
 
@@ -50,7 +60,10 @@ const Navigation = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="default" className="bg-gradient-luxury text-luxury-foreground hover:opacity-90">
+            <Button
+              variant="default"
+              className="bg-gradient-luxury text-luxury-foreground hover:opacity-90"
+            >
               Get Quote
             </Button>
           </div>
@@ -84,8 +97,8 @@ const Navigation = () => {
                   {item.label}
                 </Link>
               ))}
-              <Button 
-                variant="default" 
+              <Button
+                variant="default"
                 className="bg-gradient-luxury text-luxury-foreground hover:opacity-90 w-fit mt-2"
               >
                 Get Quote
