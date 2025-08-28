@@ -188,7 +188,7 @@ const Index = () => {
               Why Choose <span className="text-luxury">Alpha G.T FZCO</span>
             </h2>
             <p className="text-xl text-muted-foreground">
-              Experience the difference of working with UAE's premier food
+              Experience the difference of working with Djibouti's premier food
               import specialists
             </p>
           </div>
